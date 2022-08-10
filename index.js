@@ -1,3 +1,13 @@
+/*The entire code has been taken into html file for simplicity of calling functions. This file is seperate so as to understand easier the logic */
+
+/* ******************************************************LOGIC**************************************************
+To change a dice-
+Step 1: Create a random number
+Step 2: Change the image src of dice to the corresponding image (There are 6 images for each number of dots. So random number 1 should show 1 dot on the dice. and so on)
+This is done using JavaScript DOM model along with "str.functions()" )
+
+Once dice is changed; using if else statements we can modify the rest of the web page to declare the winner. Thank you! */
+
 /* For changing first dice */
 var imgRef = document.querySelector('img').src;
 var randomNumber1 = Math.ceil((Math.random() * 6));
